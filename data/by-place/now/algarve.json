@@ -1,0 +1,183 @@
+{
+ "place": "algarve",
+ "read_at": "2026-11-26T02:27:12Z",
+ "by": "board/tools/local-now.mjs (conductor@PrompTugal.dinis)",
+ "about": "Now in the Algarve: IPMA's warnings for the Faro district, Faro airport, and each place's nearest station. Not a warning service.",
+ "warnings": {
+  "withheld": true,
+  "area": "FAR (the Faro district)",
+  "active": [],
+  "why": "IPMA data is for non-commercial use only, so it is not shown here. Warnings are on weather.promptugal.news and at ipma.pt; follow IPMA and ANEPC.",
+  "page": "https://weather.promptugal.news/",
+  "source": "https://weather.promptugal.news/"
+ },
+ "airport": {
+  "icao": "LPFR",
+  "name": "Faro airport",
+  "within_nm": 40,
+  "at": "2026-11-26T02:27:12Z",
+  "airline": [
+   {
+    "callsign": "AEA122",
+    "airline": "AEA",
+    "type": "B789",
+    "alt_ft": 42975,
+    "on_ground": false,
+    "ground_speed_kt": 475.1
+   }
+  ],
+  "other_aircraft": 0,
+  "page": "https://globe.adsb.lol/?lat=37.014&lon=-7.966&zoom=9",
+  "source": "https://api.adsb.lol/",
+  "note": "What adsb.lol's community receivers saw within 40 nautical miles at the time read. Airline flights by callsign; other aircraft only counted."
+ },
+ "places": [
+  {
+   "place": "faro",
+   "station": "Faro (Aeródromo)",
+   "temp_c": null
+  },
+  {
+   "place": "loule",
+   "station": "Loulé (CML)",
+   "temp_c": null
+  },
+  {
+   "place": "quarteira",
+   "station": "Loulé (CML)",
+   "temp_c": null
+  },
+  {
+   "place": "silves",
+   "station": "Portimão (Praia da Rocha)",
+   "temp_c": null
+  },
+  {
+   "place": "tavira",
+   "station": "Tavira",
+   "temp_c": null
+  },
+  {
+   "place": "vila-real-de-santo-antonio",
+   "station": "Vila Real de S. António",
+   "temp_c": null
+  },
+  {
+   "place": "portimao",
+   "station": "Portimão (Praia da Rocha)",
+   "temp_c": null
+  },
+  {
+   "place": "lagos",
+   "station": "Portimão (Aeródromo)",
+   "temp_c": null
+  },
+  {
+   "place": "olhao",
+   "station": "Olhão, EPPO",
+   "temp_c": null
+  },
+  {
+   "place": "albufeira",
+   "station": "Albufeira",
+   "temp_c": null
+  },
+  {
+   "place": "lagoa",
+   "station": "Portimão (Praia da Rocha)",
+   "temp_c": null
+  },
+  {
+   "place": "monchique",
+   "station": "Fóia",
+   "temp_c": null
+  },
+  {
+   "place": "aljezur",
+   "station": "Aljezur",
+   "temp_c": null
+  },
+  {
+   "place": "vila-do-bispo",
+   "station": "Sagres",
+   "temp_c": null
+  },
+  {
+   "place": "castro-marim",
+   "station": "Castro Marim (RN Sapal)",
+   "temp_c": null
+  },
+  {
+   "place": "alcoutim",
+   "station": "Alcoutim, Mart.Longo",
+   "temp_c": null
+  },
+  {
+   "place": "sao-bras-de-alportel",
+   "station": "Olhão, EPPO",
+   "temp_c": null
+  }
+ ],
+ "reads": {
+  "warnings": {
+   "url": null,
+   "at": "2026-11-26T02:27:09Z",
+   "status": "withheld: IPMA is non-commercial use only"
+  },
+  "observations": {
+   "url": null,
+   "at": "2026-11-26T02:27:09Z",
+   "status": "withheld: IPMA is non-commercial use only"
+  },
+  "city-daily-1080500": {
+   "url": null,
+   "at": "2026-11-26T02:27:09Z",
+   "status": "withheld: IPMA is non-commercial use only"
+  },
+  "city-daily-1080800": {
+   "url": null,
+   "at": "2026-11-26T02:27:09Z",
+   "status": "withheld: IPMA is non-commercial use only"
+  },
+  "city-daily-1081100": {
+   "url": null,
+   "at": "2026-11-26T02:27:09Z",
+   "status": "withheld: IPMA is non-commercial use only"
+  },
+  "city-daily-1081505": {
+   "url": null,
+   "at": "2026-11-26T02:27:09Z",
+   "status": "withheld: IPMA is non-commercial use only"
+  },
+  "fire-risk-d0": {
+   "url": null,
+   "at": "2026-11-26T02:27:09Z",
+   "status": "withheld: IPMA is non-commercial use only"
+  },
+  "fire-risk-d1": {
+   "url": null,
+   "at": "2026-11-26T02:27:09Z",
+   "status": "withheld: IPMA is non-commercial use only"
+  },
+  "fire-risk-d2": {
+   "url": null,
+   "at": "2026-11-26T02:27:09Z",
+   "status": "withheld: IPMA is non-commercial use only"
+  },
+  "uv": {
+   "url": null,
+   "at": "2026-11-26T02:27:09Z",
+   "status": "withheld: IPMA is non-commercial use only"
+  },
+  "sea-forecast-d0": {
+   "url": null,
+   "at": "2026-11-26T02:27:09Z",
+   "status": "withheld: IPMA is non-commercial use only"
+  },
+  "adsb": {
+   "url": "https://api.adsb.lol/v2/point/37.0144/-7.9659/40",
+   "at": "2026-11-26T02:27:12Z",
+   "status": 200
+  }
+ }
+}
