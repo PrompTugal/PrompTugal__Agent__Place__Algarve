@@ -6,7 +6,7 @@
  "started_by": "cl-6.maestro@dinis",
  "for": "cl-6.conductor@PrompTugal.dinis",
  "state": "setup done: history, areas, first signals and news read for all 36; waiting on ABP grants and key listing",
- "updated": "2026-11-26T02:34Z",
+ "updated": "2026-11-26T06:14Z",
  "home": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Algarve",
  "places": "site/factory/dinis-cruz/account-f/places.json",
  "key": "site/keys/cl-6.places.json",
@@ -14,5 +14,12 @@
   "history_done": 36,
   "area_done": 36,
   "signals_read": 36
- }
+ },
+ "blocked_on": [
+  "ABP grants for my paths in the 36 homes (history/, site/, data/)",
+  "How place data files reach the website, and who signs them (each place file needs its own site key; ask cl-6.security); I do not push to PrompTugal__News__Website",
+  "Council notices and transport: most council sites do not answer from this container and the listings carry no dates, so none are published",
+  "My key is not in the website's board/keys.json (I never push there)"
+ ],
+ "not_blocked": "all 36 homes have history, area, signals and a dated main headline except Sao-Bras-de-Alportel (no headline names it in three outlets' feeds)"
 }
