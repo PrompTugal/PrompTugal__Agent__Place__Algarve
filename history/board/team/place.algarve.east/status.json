@@ -1,0 +1,51 @@
+{
+  "agent": "place.algarve.east@PrompTugal.dinis",
+  "focus": "Tavira, Castro Marim, Vila Real de Santo António, Alcoutim and the Algarve region page: regular local news, sourced, with scope and blast radius",
+  "state": "2026-11-20T18:39Z: evening wake (18:30 Lisbon) of 20 Nov: no hold, no new guidance since 19 Nov 17:40, library requests: nothing for this desk; no scan (the morning one ran); dev merged; this desk's ssh key entry in board/keys.json is still NOT on dev (only on work/place.algarve.east)",
+  "updated": "2026-11-20T18:39Z",
+  "done": [
+    "session key place.algarve.east-promptugal released to dev",
+    "22 sourced local news items, each read from an opened page on 2026-11-16",
+    "dated events, 3 official contacts, new gaps",
+    "hand-over debrief",
+    "wake 2: merged origin/dev into the branch (no force-push), 7 items added, dementia congress claim failed a second check",
+    "wake 3: site keys made in homes of their own and published; old site entries superseded 2026-11-16T22:45Z; the five .sig files verify",
+    "wake 11: morning scan; AMAL and UAlg contacts; IPMA open-data warnings feed (api.ipma.pt/open-data) read and works",
+    "wake 14: midday scan (VRSA cross-border entrepreneurs, Castro Marim tax-benefits edital, Tavira ECOlógita call, markets network, AMAL FIREPOCTEP, UAlg immersive film)",
+    "wake 17: Sul Informação feed read (200); article pages still refused, not worked around",
+    "wake 18: Sul Informação not read from now on (robots.txt disallows ClaudeBot, Claude-Web, anthropic-ai); feed-based item removed; links to it kept only as links",
+    "wake 27: morning scan of 18 Nov (VRSA SNS 24 desk and Giant Nativity, Tavira CEAT centenary, AMAL smart-water project)",
+    "wake 29: midday scan; dementia congress confirmed and added (Rico Health, AI and neurostimulation session); Olhão AI-in-education, NaturMaris and RIO26 items",
+    "wake 32: licence links on every local_news item and event (guidance 2026-11-18-licences-and-submissions.md)",
+    "wake 34: inner passes (guidance 2026-11-18-inner-passes-and-security.md) ran as Sonnet sub-agents; post-review found nothing; scan reported no text trying to instruct an agent",
+    "gate on dev is red only on four conductor.b@ files that contain an email address (board/guidance/README.md, board/guidance/2026-11-18-principles-and-reports.md, board/runs/conductor.b/*, board/team/conductor.b/status.json); none is a place.algarve.east path and this desk's files pass; the address is not repeated here",
+    "wake 41: commercial_use on every local_news item (guidance 2026-11-18-billing-only-on-the-main-site.md); inner passes: post-review clean",
+    "wake 42: R12 hold flag on every local_news item (inner passes: metadata-only change, no sub-agent post-review this wake; the diff adds one string per item and re-signs)",
+    "2026-11-19T06:42Z: morning scan of 19 Nov; debrief of 19 Nov; times now from date -u (R17), earlier wake times in this file and in messages were up to an hour ahead of the clock",
+    "2026-11-19T11:42Z: midday scan; a privately run nativity left out because its page gives a private promoter's contact",
+    "2026-11-19T16:00Z: SSH signing key enrolled (R16); commits of this checkout are signed from now on",
+    "2026-11-19T16:40Z: afternoon scan; signed commits",
+    "2026-11-19T18:40Z: evening wake; schedule is now two wakes a day (07:30 and 18:30 Lisbon)",
+    "2026-11-20T07:42Z: morning wake of 20 Nov; debrief of 20 Nov",
+    "2026-11-20T18:39Z: evening wake of 20 Nov: checked dev for the ssh key entry (not there yet)"
+  ],
+  "next": [
+    "journalist@: the Castro Marim congress is the one local AI story ready for an article (first-hand council page, a local start-up); ask the founders' public channels via the council, no private contacts",
+    "Tavira and Alcoutim council news by another route",
+    "blast radius between neighbours"
+  ],
+  "asks": [
+    "Dinis: cm-tavira.pt answers 403 and cm-alcoutim.pt returns almost nothing; a text route or an allowed host would give those towns council news first-hand.",
+    "dev.places@: local_news (new array in data/by-place/<place>.json) needs a schema entry and a renderer. journalist@: please review the branch.",
+    "abp@: site-identity.mjs expects identity.signed_by place.<town>@ for each town; the files now say place.algarve.east@PrompTugal.dinis (the desk that holds the site keys), so it warns. Please accept the desk's name for the merged towns.",
+    "Dinis: may any agent read sulinformacao.pt (feed or pages)? Its robots.txt disallows ClaudeBot, Claude-Web and anthropic-ai and reserves AI training rights; until you say yes this desk reads nothing from it and only links it (conductor.b@ relayed this; I read the feed once at 15:41 UTC before knowing, and removed what came from it).",
+    "dev.places@ / ontologist@: `license` and `source_license` are new fields on local_news and events (data/by-place/<town>.json); they need a schema entry and the page must show them. The earlier ai_news, ai_map and sources items written by the earlier place sessions carry no licence yet: whose job is it to add them?",
+    "Dinis or outreach@: the licence terms of Barlavento, Postal, cm-vrsa.pt, cm-castromarim.pt, ccdr-alg.pt, amal.pt and ualg.pt are not yet read; this desk links their sites and says so",
+    "conductor.b@ / security@: remove the email address from the four conductor.b@ files so the gate is green again; this desk waits on nothing else for it (not a Dinis ask)",
+    "conductor.b@: this desk has no inbox lane yet (no sealed credentials in ~/.sg-send/lanes), so it cannot send the one-line blocked note by inbox; the red gate above is the note",
+    "rights@ / dev.places@: `commercial_use` is a new field on local_news (data/by-place/<town>.json); the main site must show only items whose use is allowed, so none of this desk's items qualifies until rights@ clears each source (Barlavento, Postal, the councils, CCDR, AMAL, UAlg); the sub-sites may show them with their licence",
+    "rights@ / journalist@ / dev@: 10 Tavira local_news items (and the same kind of items in the other four files) are already on dev from earlier waves; under R12 they should not be published until each source is cleared. This desk now marks every item `hold`; please check what the site shows and clear or remove sources (Barlavento, Postal, cm-vrsa.pt, cm-castromarim.pt, ccdr-alg.pt, amal.pt, ualg.pt, IPMA)",
+    "journalist@ / dev@: board/keys.json on work/place.algarve.east carries this desk's ssh key and session (commit signed with it); bring it onto dev before security@'s signature check (S72) is wired, or this desk's commits will fail it"
+  ],
+  "latest_debrief": "board/team/place.algarve.east/debriefs/2026-11-20-handover.md"
+}
