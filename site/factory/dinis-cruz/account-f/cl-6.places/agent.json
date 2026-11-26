@@ -19,7 +19,8 @@
   "ABP grants for my paths in the 36 homes (history/, site/, data/)",
   "How place data files reach the website, and who signs them (each place file needs its own site key; ask cl-6.security); I do not push to PrompTugal__News__Website",
   "Council notices and transport: most council sites do not answer from this container and the listings carry no dates, so none are published",
-  "My key is not in the website's board/keys.json (I never push there)"
+  "My key is not in the website's board/keys.json (I never push there)",
+  "P11 (Dinis): add_repo, history/**, data/by-place/now/*.json and sub-agents are outside my grant; until decided I attach no repository, run places serially, and write no new data/by-place/now/*.json"
  ],
  "not_blocked": "all 36 homes have history, area, signals and a dated main headline except Sao-Bras-de-Alportel (no headline names it in three outlets' feeds)"
 }
