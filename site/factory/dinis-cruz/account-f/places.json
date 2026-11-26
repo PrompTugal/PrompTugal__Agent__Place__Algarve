@@ -1,6 +1,6 @@
 {
  "about": "The 36 place homes run by cl-6.places@PrompTugal.dinis. Read by cl-6.conductor and cl-6.maestro instead of messaging.",
- "updated": "2026-11-26T11:24Z",
+ "updated": "2026-11-26T18:39Z",
  "run_by": "cl-6.places@PrompTugal.dinis",
  "session": "https://claude.ai/code/session_016CrbJJcoCJnQM6GGY1xC5K",
  "totals": {
@@ -25,7 +25,7 @@
    "history_files": 93,
    "history_commits": 150,
    "area_done": true,
-   "signals_read_at": "2026-11-26T11:21Z",
+   "signals_read_at": "2026-11-26T18:37Z",
    "note": "includes place.districts history"
   },
   {
@@ -272,7 +272,7 @@
    "history_files": 17,
    "history_commits": 45,
    "area_done": true,
-   "signals_read_at": "2026-11-26T11:22Z",
+   "signals_read_at": "2026-11-26T18:37Z",
    "note": ""
   },
   {
@@ -285,7 +285,7 @@
    "history_files": 15,
    "history_commits": 10,
    "area_done": true,
-   "signals_read_at": "2026-11-26T11:22Z",
+   "signals_read_at": "2026-11-26T18:37Z",
    "note": ""
   },
   {
@@ -298,7 +298,7 @@
    "history_files": 13,
    "history_commits": 9,
    "area_done": true,
-   "signals_read_at": "2026-11-26T11:22Z",
+   "signals_read_at": "2026-11-26T18:37Z",
    "note": ""
   },
   {
@@ -311,7 +311,7 @@
    "history_files": 15,
    "history_commits": 10,
    "area_done": true,
-   "signals_read_at": "2026-11-26T11:22Z",
+   "signals_read_at": "2026-11-26T18:37Z",
    "note": ""
   },
   {
@@ -324,7 +324,7 @@
    "history_files": 12,
    "history_commits": 8,
    "area_done": true,
-   "signals_read_at": "2026-11-26T11:22Z",
+   "signals_read_at": "2026-11-26T18:38Z",
    "note": ""
   },
   {
@@ -337,7 +337,7 @@
    "history_files": 12,
    "history_commits": 8,
    "area_done": true,
-   "signals_read_at": "2026-11-26T11:22Z",
+   "signals_read_at": "2026-11-26T18:38Z",
    "note": ""
   },
   {
@@ -350,7 +350,7 @@
    "history_files": 14,
    "history_commits": 10,
    "area_done": true,
-   "signals_read_at": "2026-11-26T11:22Z",
+   "signals_read_at": "2026-11-26T18:38Z",
    "note": ""
   },
   {
@@ -363,7 +363,7 @@
    "history_files": 18,
    "history_commits": 14,
    "area_done": true,
-   "signals_read_at": "2026-11-26T11:22Z",
+   "signals_read_at": "2026-11-26T18:38Z",
    "note": ""
   },
   {
@@ -376,7 +376,7 @@
    "history_files": 12,
    "history_commits": 9,
    "area_done": true,
-   "signals_read_at": "2026-11-26T11:22Z",
+   "signals_read_at": "2026-11-26T18:38Z",
    "note": ""
   },
   {
@@ -389,7 +389,7 @@
    "history_files": 13,
    "history_commits": 11,
    "area_done": true,
-   "signals_read_at": "2026-11-26T11:22Z",
+   "signals_read_at": "2026-11-26T18:38Z",
    "note": ""
   },
   {
@@ -402,7 +402,7 @@
    "history_files": 15,
    "history_commits": 12,
    "area_done": true,
-   "signals_read_at": "2026-11-26T11:22Z",
+   "signals_read_at": "2026-11-26T18:38Z",
    "note": ""
   },
   {
@@ -415,7 +415,7 @@
    "history_files": 16,
    "history_commits": 11,
    "area_done": true,
-   "signals_read_at": "2026-11-26T11:22Z",
+   "signals_read_at": "2026-11-26T18:38Z",
    "note": ""
   },
   {
@@ -428,7 +428,7 @@
    "history_files": 13,
    "history_commits": 9,
    "area_done": true,
-   "signals_read_at": "2026-11-26T11:22Z",
+   "signals_read_at": "2026-11-26T18:38Z",
    "note": ""
   },
   {
@@ -441,7 +441,7 @@
    "history_files": 13,
    "history_commits": 9,
    "area_done": true,
-   "signals_read_at": "2026-11-26T11:22Z",
+   "signals_read_at": "2026-11-26T18:38Z",
    "note": ""
   },
   {
@@ -454,7 +454,7 @@
    "history_files": 13,
    "history_commits": 10,
    "area_done": true,
-   "signals_read_at": "2026-11-26T11:22Z",
+   "signals_read_at": "2026-11-26T18:38Z",
    "note": ""
   },
   {
@@ -467,7 +467,7 @@
    "history_files": 13,
    "history_commits": 10,
    "area_done": true,
-   "signals_read_at": "2026-11-26T11:22Z",
+   "signals_read_at": "2026-11-26T18:38Z",
    "note": ""
   },
   {
@@ -480,7 +480,7 @@
    "history_files": 12,
    "history_commits": 8,
    "area_done": true,
-   "signals_read_at": "2026-11-26T11:22Z",
+   "signals_read_at": "2026-11-26T18:38Z",
    "note": ""
   }
  ]
