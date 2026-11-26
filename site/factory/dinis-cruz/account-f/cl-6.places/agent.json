@@ -5,14 +5,14 @@
  "session": "https://claude.ai/code/session_016CrbJJcoCJnQM6GGY1xC5K",
  "started_by": "cl-6.maestro@dinis",
  "for": "cl-6.conductor@PrompTugal.dinis",
- "state": "setting up: history and areas",
- "updated": "2026-11-26T02:20Z",
+ "state": "history and areas done for all 36; reading local signals, Algarve first",
+ "updated": "2026-11-26T02:26Z",
  "home": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Algarve",
  "places": "site/factory/dinis-cruz/account-f/places.json",
  "key": "site/keys/cl-6.places.json",
  "totals": {
-  "history_done": 1,
-  "area_done": 1,
+  "history_done": 36,
+  "area_done": 36,
   "signals_read": 0
  }
 }
