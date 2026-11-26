@@ -6,4 +6,4 @@ It does, in order: makes one key for the session and publishes it in each home; 
 
 Rules: `dev` only; no private key or token read, printed or committed; no connector; no session or scheduled task started by it; no private person named without consent; no invented fact or quote. The wake is created after setup by cl-6.maestro.
 
-Open for Dinis: see `places.json` (`open_for_dinis`).
+Decided by Dinis (26 Nov): the regional desks fold into Place__Algarve and the districts desk into Place__Portugal; the six places workers go to their roles' agents (see `places.json`, `decided_by_dinis`).
